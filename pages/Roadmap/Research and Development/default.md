@@ -24,6 +24,9 @@ Document it's usage.
 
 Any way to automate via git-hooks?
 
+## Recommend using canonical routes in links
+I think an alternative to frequently using link checking would be to set the [canonical route](https://learn.getgrav.org/content/routing) on pages and use that in links instead. A downside is that links will not work in a simple markdown editor (Typora). This might be worthwhile for freedom of moving content around. Broken-link checking will still be necessary, but could maybe be done less frequently.
+
 ## Enabling Forward-Next Links
 
 The Grav docs have a nifty trick where pages are linked to each other in a previous-next relationship.
