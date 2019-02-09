@@ -1,9 +1,7 @@
 ---
-title: Server Configs
-
+title: 'Server Configs'
+visible: true
 ---
-
-# Server Configs
 
 ## Apache Userdir
 
