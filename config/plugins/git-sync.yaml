@@ -4,6 +4,7 @@ folders:
   - plugins
   - config
   - data
+  - themes
 sync:
   on_save: true
   on_delete: true
@@ -12,7 +13,6 @@ sync:
   cron_at: '0 12,23 * * *'
 repository: 'https://github.com/ginkgostreet/ginkgo-docs-grav.git'
 user: ginkgomzd
-password: gitsync-def50200f5c815fd3ac11404a4df28f34b048061116387902963526d9a552e94e261d7656b89931a216e4e5e742c9879fc35d1592530f5be0557e8166040eb712715426fbb8cc0c69d235df8a2730396135a11bb4bd64daa05545588f30f89f2bb23c78f7e02bc66771e8d30ac104179beab63785b0b013f17da57a1
 webhook: /_git-sync-974d762df28a
 webhook_enabled: '1'
 webhook_secret: 56e851cdee2adfbfe59363f51a9edfa67c75da49fe5c8605
@@ -26,3 +26,4 @@ git:
   email: git-sync@trilby.media
   bin: git
 logging: false
+password: gitsync-def50200f5c815fd3ac11404a4df28f34b048061116387902963526d9a552e94e261d7656b89931a216e4e5e742c9879fc35d1592530f5be0557e8166040eb712715426fbb8cc0c69d235df8a2730396135a11bb4bd64daa05545588f30f89f2bb23c78f7e02bc66771e8d30ac104179beab63785b0b013f17da57a1
