@@ -34,3 +34,11 @@ Confirm env vars: `PUBLIC_HTML` `USER_NAME`
 - On the github landing page for the repo, "manage topics"
    - set the topic, "user-knowledge"
 
+## Configure Site
+
+* Review site configuration - See Roadmap for suggestions:
+* Configure Site Options
+  * Site Title: e.g. "Museum of Math Knowledgebase"
+  * Default Author: Ginkgo
+  * Default Email: devs@ginkgostreet.com
+
