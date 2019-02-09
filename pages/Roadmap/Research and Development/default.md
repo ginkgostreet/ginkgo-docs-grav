@@ -14,6 +14,8 @@ Read the docs for the [login plugin](https://github.com/getgrav/grav-plugin-logi
 
 ## Edit In-place
 
+https://github.com/bleutzinn/grav-plugin-editable-simplemde
+
 Writers should be able to edit content without using the Admin.
 
 Instead of providing the link to edit on GitHub, provide a link (to permissioned users) to open an editor on the front-end.
