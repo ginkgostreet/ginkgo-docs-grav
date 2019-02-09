@@ -28,6 +28,13 @@ rm -rf user/
 git clone git@github.com:ginkgostreet/fis-docs.git user
 ```
 
+Confirm that the `user/localhost` directory exists. If not, follow the [instructions for adding the dev-env config](/project%20setup) to the content repo.
+
+Optional: pull-down the user/accounts directory, or else you will have to create a login for yourself.
+`rsync -rv rtfm:/home/fis/public_html/user/accounts user/`
+
+Otherwise, you can create a login from `/admin`, or use the cli:
+`bin/plugin login`
 
 ## PHP built-in server
 
