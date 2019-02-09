@@ -1,5 +1,6 @@
 ---
 title: 'Server System Setup'
+visible: true
 ---
 
 # RTFM Server Setup Documentation
