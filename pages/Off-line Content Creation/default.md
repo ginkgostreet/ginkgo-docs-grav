@@ -1,7 +1,8 @@
 ---
-title: Off-line Content Creation
+title: 'Off-line Content Creation'
 visible: true
-
+routes:
+    cannonical: /dev-env
 ---
 
 Use git to edit content in a development environment.
