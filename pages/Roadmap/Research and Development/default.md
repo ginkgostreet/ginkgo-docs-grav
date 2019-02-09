@@ -8,6 +8,8 @@ visible: true
 * Deny un-authenticated access
 * Creating User Accounts
 
+Read the docs for the [login plugin](https://github.com/getgrav/grav-plugin-login)
+
 ## Edit In-place
 
 Writers should be able to edit content without using the Admin.
