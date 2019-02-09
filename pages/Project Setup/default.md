@@ -1,22 +1,15 @@
 ---
+title: Project Setup
 visible: true
 ---
 
-# Project Setup
-
-
-
 ## docs-user
-
-https://github.com/ginkgostreet/docs-user
 
 Create a user and set-up the web-root, including permissions.
 
 You can re-run the permissions with `docs-user facls`.
 
 ## grav-util
-
-https://github.com/ginkgostreet/grav-util
 
 Create grav instances using the Ginkgo Street Labs template.
 

@@ -1,5 +1,6 @@
 ---
 title: Using Grav
+visible: true
 body_classes: title-center title-h1h2
 ---
 
@@ -33,7 +34,7 @@ Creating a new page is a simple affair in **Grav**.  Simply follow these simple 
         title: My New Page
         ---
         # My New Page!
-
+    
         This is the body of **my new page** and I can easily use _Markdown_ syntax here.
 
 3. Save this file in the `user/pages/02.mypage/` folder as `default.md`. This will tell **Grav** to render the page using the **default** template.

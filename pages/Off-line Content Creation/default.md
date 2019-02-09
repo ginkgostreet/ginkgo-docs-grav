@@ -1,8 +1,8 @@
 ---
+title: Off-line Content Creation
 visible: true
----
 
-# Off-line Content Creation
+---
 
 Use git to edit content in a development environment.
 
