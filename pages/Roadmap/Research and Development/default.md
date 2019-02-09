@@ -12,6 +12,16 @@ routes:
 
 Read the docs for the [login plugin](https://github.com/getgrav/grav-plugin-login)
 
+## More Site Defaults
+Settings to add to our Ginkgo install profile.
+
+#### Content
+* Set Default Theme
+* 
+#### Markdown
+* Enable Markdown Extra
+* Auto URL Links
+
 ## Edit In-place
 
 https://github.com/bleutzinn/grav-plugin-editable-simplemde
