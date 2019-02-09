@@ -1,7 +1,6 @@
 ---
-title: Grav Docs Project Roadmap
+title: 'Grav Docs Project Roadmap'
 visible: true
-
 ---
 
 Feature Manifest and List of To-Do's.
@@ -34,5 +33,5 @@ https://learn.getgrav.org/content/taxonomy
 
 ## Questions and R&D [TODO]
 
-[Feature Conceptualization, i.e. Roadmap proposals.](Research and Development/default.md)
+[Feature Conceptualization, i.e. Roadmap proposals.](/backlog)
 
