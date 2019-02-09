@@ -11,6 +11,22 @@ Structure commits meaningfully.
 
 Use branches and Pull-Requests.
 
+## Create a Grav Base-install
+
+```shell
+compser create-project --no-dev getgrav/grav project-dir/
+cd project-dir
+bin/gpm self-upgrade -y
+```
+* upgrade after installing via composer because sometimes composer package is not up to date with the Stable release.
+
+## Clone the Intance Repo
+Remove the default `user/` directory and replace it with the git-sync'd repo:
+```shell
+cd project-dir/
+rm -rf user/
+git clone git@github.com:ginkgostreet/fis-docs.git user
+```
 
 
 ## PHP built-in server
