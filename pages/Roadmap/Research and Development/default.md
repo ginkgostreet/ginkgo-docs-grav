@@ -17,7 +17,9 @@ Settings to add to our Ginkgo install profile.
 
 #### Content
 * Set Default Theme
-* 
+* Default Ordering: "Folder  - based on prefix-less folder name"
+
+
 #### Markdown
 * Enable Markdown Extra
 * Auto URL Links
