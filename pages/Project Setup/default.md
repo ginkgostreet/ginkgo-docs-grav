@@ -19,7 +19,7 @@ TODO: make this mo-betta
 
 Confirm env vars: `PUBLIC_HTML` `USER_NAME`
 
-`make -f /usr/local/lib/grav-util/ginkgo/grav/Makefile dev-env`
+`make -f /usr/local/lib/grav-util/ginkgo-grav/Makefile dev-env`
 
 ## git-sync
 
