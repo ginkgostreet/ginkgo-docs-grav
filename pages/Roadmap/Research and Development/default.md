@@ -1,8 +1,8 @@
 ---
 title: 'Research & Development'
+visible: true
 routes:
     canonical: /backlog
-visible: true
 ---
 
 ## Security and Authentication
@@ -44,8 +44,10 @@ The Learn2 (and related themes) display the title from the frontmatter as a head
 ## Table of Contents
 
 Add an auto-generated Table of Contents to the theme.
+* https://github.com/trilbymedia/grav-plugin-page-toc
+* https://github.com/Sommerregen/grav-plugin-toc
 
-Look for an example in an existing Theme.
+Warning: the editable plugin warns that twig can break the editor. Find a compatible way to add the table of contents. [TODO]
 
 ## What can be done with Page Collections?
 
