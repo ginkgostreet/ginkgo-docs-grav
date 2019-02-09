@@ -2,7 +2,6 @@
 title: 'Server System Setup'
 ---
 
-
 # RTFM Server Setup Documentation
 
 ## VPS
