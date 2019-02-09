@@ -1,5 +1,7 @@
 ---
 title: 'Research & Development'
+routes:
+    canonical: backlog
 visible: true
 ---
 
