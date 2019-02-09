@@ -3,9 +3,10 @@ title: Research & Development
 visible: true
 ---
 
-## What can be done with Page Collections?
+## Security and Authentication
 
-https://learn.getgrav.org/content/collections
+* Deny un-authenticated access
+* Creating User Accounts
 
 ## Edit In-place
 
@@ -36,3 +37,8 @@ The Learn2 (and related themes) display the title from the frontmatter as a head
 Add an auto-generated Table of Contents to the theme.
 
 Look for an example in an existing Theme.
+
+## What can be done with Page Collections?
+
+https://learn.getgrav.org/content/collections
+
