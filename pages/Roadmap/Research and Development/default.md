@@ -19,10 +19,12 @@ Settings to add to our Ginkgo install profile.
 * Set Default Theme
 * Default Ordering: "Folder  - based on prefix-less folder name"
 
-
 #### Markdown
 * Enable Markdown Extra
 * Auto URL Links
+
+#### Advanced
+* Force lowercase URLs: No
 
 ## Edit In-place
 
