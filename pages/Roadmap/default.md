@@ -32,12 +32,6 @@ Documentation of Tools.
 
 https://learn.getgrav.org/content/taxonomy
 
-## Edit In-place [TODO]
-
-Writers should be able to edit content without using the Admin.
-
-Instead of providing the link to edit on GitHub, provide a link (to permissioned users) to open an editor on the front-end.
-
 ## Questions and R&D [TODO]
 
 [Feature Conceptualization, i.e. Roadmap proposals.](Research and Development/default.md)

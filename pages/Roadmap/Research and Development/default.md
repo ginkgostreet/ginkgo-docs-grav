@@ -3,13 +3,15 @@ title: Research & Development
 visible: true
 ---
 
-## Enabling Forward-Next Links
-
-The Grav docs have a nifty trick where pages are linked to each other in a previous-next relationship.
-
 ## What can be done with Page Collections?
 
 https://learn.getgrav.org/content/collections
+
+## Edit In-place
+
+Writers should be able to edit content without using the Admin.
+
+Instead of providing the link to edit on GitHub, provide a link (to permissioned users) to open an editor on the front-end.
 
 ## Broken Link Checker
 
@@ -20,6 +22,10 @@ https://github.com/jgonyea/grav-plugin-broken-link-checker
 Document it's usage.
 
 Any way to automate via git-hooks?
+
+## Enabling Forward-Next Links
+
+The Grav docs have a nifty trick where pages are linked to each other in a previous-next relationship.
 
 ## Theme Titles
 
