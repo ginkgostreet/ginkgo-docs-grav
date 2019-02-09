@@ -36,7 +36,7 @@ Confirm env vars: `PUBLIC_HTML` `USER_NAME`
 
 ## Configure Site
 
-* Review site configuration - See [Roadmap](/backlog) for suggestions:
+* Review site configuration - See [Roadmap: #More Default Configs](/backlog) for suggestions:
 * Configure Site Options
   * Site Title: e.g. "Museum of Math Knowledgebase"
   * Default Author: Ginkgo
