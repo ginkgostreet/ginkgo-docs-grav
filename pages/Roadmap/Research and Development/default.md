@@ -11,7 +11,7 @@ The Grav docs have a nifty trick where pages are linked to each other in a previ
 
 https://learn.getgrav.org/content/collections
 
-## Broken Link Checker [TODO]
+## Broken Link Checker
 
 Add the broken link checker plugin into the default install profile.
 
