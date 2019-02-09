@@ -1,5 +1,5 @@
 ---
-title: Research & Development
+title: 'Research & Development'
 visible: true
 ---
 
@@ -41,4 +41,7 @@ Look for an example in an existing Theme.
 ## What can be done with Page Collections?
 
 https://learn.getgrav.org/content/collections
+
+## Upstream Issues to Track
+* [Admin plugin dirties environment configs](https://github.com/getgrav/grav-plugin-admin/issues/1614)
 
