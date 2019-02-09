@@ -31,6 +31,6 @@ Confirm env vars: `PUBLIC_HTML` `USER_NAME`
   - enable the Webhook Secret
   - Configure the Webhook on the repo following the instructions in gitsync, including the secret provided by git-sync.
   - Select all options for folders to sync for git-sync
- - On the github landing page for the repo, "manage topics"
+- On the github landing page for the repo, "manage topics"
    - set the topic, "user-knowledge"
 
