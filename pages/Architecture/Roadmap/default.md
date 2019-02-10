@@ -3,15 +3,11 @@ title: 'Grav Docs Project Roadmap'
 visible: true
 ---
 
-Feature Manifest and List of To-Do's.
-
-## System Setup
-
-[System Server Setup](../System Config/server-setup/default.md)
+# Feature Requests and To-Do's.
 
 ## Project Setup
 
-[Project Setup](../Project Setup/default.md)
+[Project Setup](/maintenance/project-setup)
 
 How to create a new documentation instance.
 

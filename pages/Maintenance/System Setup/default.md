@@ -1,11 +1,25 @@
 ---
-title: 'Server Configs'
+title: 'Server System Setup'
 visible: true
+routes:
+  canonical: /maintenance/system-setup
 ---
+
+## VPS
+
+Created with the ginkgo street VPS stand-up suite for an LTS Ubuntu Server with a LAMP stack installed.w
+
+## Special Utils
+
+* `make-do` make build system framework
+* `docs-user` to manage docs users.
+* `grav-util` to manage grav cms instances.
 
 ## Apache Userdir
 
-#### `/etc/apache2/mods-enabled/userdir.conf`
+Use userdir Apache config to enable site creation by creating a system user.
+
+### `/etc/apache2/mods-enabled/userdir.conf`
 
 Modify `AllowOverride`
 
@@ -24,9 +38,7 @@ Modify `AllowOverride`
 
 ```
 
-
-
-#### `/etc/apache2/mods-enabled/php7.2.conf`
+### `/etc/apache2/mods-enabled/php7.2.conf`
 
 comment-out IfModule
 

@@ -1,6 +1,8 @@
 ---
-title: 'Server Library Dependencies'
+title: 'Source Control'
 visible: true
+routes:
+  canonical: /maintenance/repos
 ---
 
 ## docs-user
