@@ -57,10 +57,10 @@ Both arguments are optional, using the current directory and the port 8947 by de
 
 ```shell
 mzd☯ artichoke :>grav-server 
-./
+/var/www/grav/
 PHP 7.2.10-0ubuntu0.18.04.1 Development Server started at Fri Feb  8 23:10:21 2019
 Listening on http://localhost:8888
-Document root is /home/mzd/work/drafting/docs-grav
+Document root is /var/www/grav
 Press Ctrl-C to quit.
 
 ```
