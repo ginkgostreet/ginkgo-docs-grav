@@ -34,6 +34,10 @@ Writers should be able to edit content without using the Admin.
 
 Instead of providing the link to edit on GitHub, provide a link (to permissioned users) to open an editor on the front-end.
 
+## Embed Markdown From Source Control
+
+embed repo README docs.
+
 ## Broken Link Checker
 
 Add the broken link checker plugin into the default install profile.
