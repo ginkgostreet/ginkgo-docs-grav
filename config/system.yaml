@@ -15,7 +15,7 @@ languages:
   http_accept_language: false
   override_locale: false
 home:
-  alias: '/user docs/off-line content creation'
+  alias: /architecture/roadmap
   hide_in_urls: false
 pages:
   theme: learn2-git-sync
