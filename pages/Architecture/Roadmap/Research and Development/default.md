@@ -74,3 +74,8 @@ https://learn.getgrav.org/content/collections
 ## Upstream Issues to Track
 * [Admin plugin dirties environment configs](https://github.com/getgrav/grav-plugin-admin/issues/1614)
 
+## Restricting Access to the Docs
+* [Private Plugin](https://github.com/Diyzzuf/grav-plugin-private)
+* [Private Site Plugin](https://github.com/Diyzzuf/grav-plugin-private-site) (in BETA, looking for testers)
+* [Grav General Recipes: Create a private area](https://learn.getgrav.org/cookbook/general-recipes#create-a-private-area)
+
