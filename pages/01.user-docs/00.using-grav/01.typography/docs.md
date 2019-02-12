@@ -1,5 +1,10 @@
 ---
 title: Typography
+taxonomy:
+    category:
+        - docs
+    tag:
+        - user-docs
 visible: true
 ---
 

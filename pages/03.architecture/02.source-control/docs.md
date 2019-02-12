@@ -1,6 +1,11 @@
 ---
 title: 'Source Control'
 visible: true
+taxonomy:
+    category:
+        - docs
+    tag:
+        - architecture
 routes:
   canonical: /maintenance/repos
 ---

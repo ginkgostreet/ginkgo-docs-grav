@@ -1,5 +1,10 @@
 ---
 title: 'Project Setup'
+taxonomy:
+    category:
+        - docs
+    tag:
+        - user-docs
 visible: true
 ---
 

@@ -1,5 +1,10 @@
 ---
-title: Using Grav
+title: 'Using Grav'
+taxonomy:
+    category:
+        - docs
+    tag:
+        - user-docs
 visible: true
 body_classes: title-center title-h1h2
 ---

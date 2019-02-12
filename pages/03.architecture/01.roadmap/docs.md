@@ -1,5 +1,10 @@
 ---
 title: 'Grav Docs Project Roadmap'
+taxonomy:
+    category:
+        - docs
+    tag:
+        - architecture
 visible: true
 ---
 

@@ -1,5 +1,10 @@
 ---
 title: 'Server System Setup'
+taxonomy:
+    category:
+        - docs
+    tag:
+        - maintenance
 visible: true
 routes:
   canonical: /maintenance/system-setup

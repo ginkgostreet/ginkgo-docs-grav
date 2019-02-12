@@ -1,5 +1,10 @@
 ---
 title: 'Off-line Content Creation'
+taxonomy:
+    category:
+        - docs
+    tag:
+        - user-docs
 visible: true
 routes:
     cannonical: /dev-env
