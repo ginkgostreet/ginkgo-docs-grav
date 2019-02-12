@@ -1,10 +1,10 @@
 enabled: true
 folders:
   - pages
+  - themes
   - plugins
   - config
   - data
-  - themes
 sync:
   on_save: true
   on_delete: true
@@ -21,7 +21,7 @@ remote:
   name: origin
   branch: master
 git:
-  author: gituser
+  author: gravuser
   name: GitSync
   email: git-sync@trilby.media
   bin: git
