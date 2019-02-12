@@ -13,6 +13,8 @@ You can re-run the permissions with `docs-user facls`.
 
 Create grav instances using the Ginkgo Street Labs template.
 
+**TO-DO:** Add the [Ginkgo RTFM theme](https://github.com/ginkgostreet/grav-theme-ginkgo-rtfm) to the template. Or possibly add creating the theme as a submodule to the utility. This theme is currently configured as a `submodule` in the `ca-docs` instance, and it works pretty well. The theme doesn't sync with `git-sync` like the rest of the file; one has to `cd` to the `user` directory of the instance they want to update and do a `git submodule update --init --recursive` sorta thing. Honestly the `--init` and `--recursive` bits are unnecessary if this is the only submodule, but there's probably no harm in adding those parameters.
+
 ## git-sync
 
 - create a repo on github, initialized with a README.md
@@ -26,9 +28,11 @@ Create grav instances using the Ginkgo Street Labs template.
 - On the github landing page for the repo, "manage topics"
    - set the topic, "user-knowledge"
 
+**TO-DO:** Configure some sort of black magic to keep submodules in sync. Shell script? Something more automagic? Might not be a bad idea to have this be semi-manual for the time being.
+
 ## Add the Dev Environment starter
 
-TODO: make this mo-betta
+**TO-DO:** make this mo-betta
 
 Confirm env vars: `PUBLIC_HTML` `USER_NAME`
 
