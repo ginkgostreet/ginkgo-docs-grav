@@ -22,8 +22,10 @@ Use branches and Pull-Requests.
 compser create-project --no-dev getgrav/grav project-dir/
 cd project-dir
 bin/gpm self-upgrade -y
+git submodule update --init --recursive
 ```
 * upgrade after installing via composer because sometimes composer package is not up to date with the Stable release.
+* Do the add submodule dance in case any submodules have been added (like the ginkgo-rtfm theme)
 
 ## Clone the Intance Repo
 Remove the default `user/` directory and replace it with the git-sync'd repo:

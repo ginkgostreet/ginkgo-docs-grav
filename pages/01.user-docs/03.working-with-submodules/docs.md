@@ -18,7 +18,7 @@ Set the path in `.gitmodules` or by issuing the command: `git something somethin
 
 ## Adding a Submodule
 
-Here is an example of adding a git submodule using our RTFM theme as an example:
+Here is an example of adding a git submodule using our RTFM theme as an example. The details here are probably more than necessary for most submodules, since it was written for the Gingko RTFM theme which we do the dev on.
 
 - SSH into the RTFM server
 - `cd /path/to/user`
@@ -26,7 +26,14 @@ Here is an example of adding a git submodule using our RTFM theme as an example:
 - `git submodule add git@github.com:ginkgostreet/grav-theme-ginkgo-rtfm.git themes/ginkgo-rtfm`
 - Note: The name of the directory you clone the repo into is important. It needs to be named what the theme is named, or this won't work.
 - After the theme repo has been added as a submodule, you should now see a `.gitmodules` file in the parent repo. Doing a `cat .gitmodules` should show you that it's in there.
-- 
+- Update `/user/config/system.yaml` to set the theme to Ginkgo RTFM:
+```
+pages:
+  theme: ginkgo-rtfm
+```
+- You might also need to add the `page-toc` plugin as a dependency, and `active: true` in it's YAML configs file.
+- Check the front-facing environment you're working on to ensure changes are happening
+- Viola!
 
 ## Updating Submodules
 
