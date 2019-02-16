@@ -1,0 +1,3 @@
+[submodule "themes/ginkgo-rtfm"]
+	path = themes/ginkgo-rtfm
+	url = git@github.com:ginkgostreet/grav-theme-ginkgo-rtfm.git
