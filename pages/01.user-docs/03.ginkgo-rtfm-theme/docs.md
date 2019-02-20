@@ -47,7 +47,7 @@ It appears submodules don't update themselves in repos, so if you know submodule
 - `git fetch`
 - `git status`
 - Other `git` functions as necessary (maybe you have content updates to pull?)
-- `submodule update --remote --checkout themes/ginkgo-rtfm`
+- `git submodule update --remote --checkout themes/ginkgo-rtfm`
 - Might be adviseable to fetch, status, add, commit, and push the parent repo if the update of the submodule creates changes in the parent repo.
 
 Bingo's your monkey!
