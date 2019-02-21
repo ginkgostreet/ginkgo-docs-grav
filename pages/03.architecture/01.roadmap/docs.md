@@ -36,3 +36,11 @@ https://learn.getgrav.org/content/taxonomy
 
 [Feature Conceptualization, i.e. Roadmap proposals.](/backlog)
 
+## Information Architecture
+
+[Information Architecture](/architecture/information-architecture)
+
+
+
+
+
