@@ -16,10 +16,16 @@ How we want our Grav sites set up, and what each section is used for.
 
 ## Menu Structure
 
-Our top-level menu structure is broken out into three main sections:
+Our top-level menu structure is broken out into three main sections, with sub-sections:
 
 - Guide 
+    - Objective
+    - Reference
 - Manifest
+    - Feature (Deployed)
+    - Resources (e.g. Servers, Accounts, and third-party dependancies such as Drupal or CiviCRM
+    - Project Log (e.g. Budget approvals, resource procurement, control documentation, etc.)
+    - Change Log (e.g. System admin changes, upgrades, deployments, config changes, etc.)
 - Roadmap
     - Feature
         - Context
@@ -31,7 +37,17 @@ Our top-level menu structure is broken out into three main sections:
 
 We need some documentation here about how we want our guides to be User Story centric, and the delineation between use-case guides and interface guides.
 
+### Objective
+
+Each objective, goal, or use case has it's own directory. How the information is organized can vary from project to project, based on the needs of the project. User stories should be kept thin by linking to internal and external references, rather than expounding on pre-requisites, concepts, or in-depth instructions.
+
+### References
+
+Can explain abstract concepts, detail tool (interface) documentation, or reference external documentation i.e. bibliographic reference.
+
 ## Manifest
+
+### Feature (Deployed)
 
 ## Roadmap
 
@@ -39,7 +55,7 @@ Roadmap Primary page (i.e. menu item) displays all it's children, and is the ove
 
 ## Feature
 
-A feature describes… something. 
+A feature describes… something. Each Feature should have it's own directory in the Roadmap, and some sub-Features may be nested inside parent Features.
 
 The feature components that follow (Context, Discussion, Discovery, and Solution) are expected to be single pages. Each component to the feature might be broken down into sub-directories, but if a lot of sub-division is needed, [decomposing the feature](#composing-and-decomposing-features) should be considered. 
 
@@ -81,3 +97,16 @@ Features don't need to be broken down on components or technical boundaries to b
 4. Perform technical discovery to answer questions, inform decisions, determine feasibility of proposed solutions, etc.
 5. Draft solution(s) that implement the feature
 6. All roles in the project review the proposed solutions and documentation to date, to ensure, validate, and verify that any concerns from all perspectives have been addressed. 
+
+## New Releases
+
+**Scenario #1:** A feature is in production for some time, the org evolves, they want to make changes…assuming this is a minor change, that would equate to a Minor Release. We would create a Feature for the Minor Release e.g. `myFeature_v1.1`.The contents of the Feature would address the development of the changes, referencing the deployed Feature as appropriate and not duplicating it.
+
+When it comes time to deploy the Minor Release, the whole Feature is simply moved into the Root of the Deployed Feature. 
+
+Bam.
+
+**Scenario #2:** The change is not minor and constitutes a Major Release e.g. `myFeature_v2.0`. As with the Minor Release, avoiding duplication is the strategy. When it comes time to deploy, the Major Releases replaces the earlier version of the Feature but maintains the previous version as a child.
+
+Double Bam.
+
