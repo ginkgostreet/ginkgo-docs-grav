@@ -22,7 +22,7 @@ This Feature is a bootstrapped implementation: providing both a description and 
 
 - Context (Required)
 - Discussion
-- Discovery
+- Resolution
 - Solution (Required)
 - Release (Required once deployed)
 
@@ -37,7 +37,7 @@ Cannonical URLs should avoid uncessary depth. This creates the opportunity for c
 - Prefix: `/features`
 - Name: the name of the feature
 - version: the semantic version of the feature. Optional if not slated for development yet and not an update to a feature.
-- Component: `/context`, `/discussion`, `/discovery`, `/solution`, `/release`
+- Component: `/context`, `/discussion`, `/resolution`, `/solution`, `/release`
 - Document: (if needed) the unique name of the document.
 
 **All URLs should be all-lowercase and not contain spaces or any characters other than a hyphen between words.**
@@ -78,14 +78,14 @@ roadmap
 ``` shell
 ├── 00.context
 ├── 01.discussion
-├── 02.discovery
+├── 02.resolution
 ├── 03.solution
 └── 04.release
     ├── docs.md		<--- required by Grav, can be empty
     ├── v0.1 		<--- Complete copy of the feature as of the first deployment
     │   ├── 00.context
     │   ├── 01.discussion
-    │   ├── 02.discovery
+    │   ├── 02resolutiony
     │   ├── 03.solution
     │   └── 04.release
     │       └── docs.md

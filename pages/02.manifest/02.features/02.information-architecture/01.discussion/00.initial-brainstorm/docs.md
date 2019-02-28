@@ -55,7 +55,7 @@ Roadmap Primary page (i.e. menu item) displays all it's children, and is the ove
 
 A feature describes… something. Each Feature should have it's own directory in the Roadmap, and some sub-Features may be nested inside parent Features.
 
-The feature components that follow (Context, Discussion, Discovery, and Solution) are expected to be single pages. Each component to the feature might be broken down into sub-directories, but if a lot of sub-division is needed, [decomposing the feature](#composing-and-decomposing-features) should be considered. 
+The feature components that follow (Context, Discussion, ~~Discovery~~Resolution, and Solution) are expected to be single pages. Each component to the feature might be broken down into sub-directories, but if a lot of sub-division is needed, [decomposing the feature](#composing-and-decomposing-features) should be considered. 
 
 ### Context
 
@@ -65,9 +65,9 @@ Describes the user stories and external systems that the feature exists within. 
 
 Brainstorms, disussions, wacky ideas, tentative decisions, questions, potential solutions to be tested and/or fleshed out, etc.
 
-### Discovery
+### Resolution
 
-Technical discovery, requirements, estabishment of default behavior, etc. Items should only be placed in Discovery when they are verified and accepted. **Example:** [Establishing Default Behavior](https://rtfm.ginkgo.st/~ca/architecture/organizational-membership-reminders/technical-discovery#establishing-default-behavior)
+Technical discovery, requirements, establishment of default behavior, etc. Items should only be placed in Resolution when they are verified and accepted. **Example:** [Establishing Default Behavior](https://rtfm.ginkgo.st/~ca/architecture/organizational-membership-reminders/technical-discovery#establishing-default-behavior)
 
 ### Solution
 

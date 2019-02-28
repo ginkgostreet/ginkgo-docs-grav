@@ -24,8 +24,8 @@ routes:
  - **Feature**: A Roadmap and System unit. Features have a standardized document structure and are conceived in the Roadmap. The only required aspects of a feature, are its Context and Solution. A feature starts with a Context and ends with a Solution, but both should evolve throughout the feature lifecycle.
  - **Context**: Everything that exists outside of a feature that help to define a feature. Interactions, Interfaces, Users, Services, Processes, Concepts...
  - **Discussion**: a workspace for the development of features
- - **Discovery**: Accepted and Verified facts. Documentation of discovery process is NOT part of  Discovery, and belongs in Discussion.
- - **Solution**: within a feature, the articulated blueprint or approach to implementing a feature specification. Competing or component solutions will exist in a Feature in discussion or discovery areas. When a feature enters development, the Solution is understood to be validated and complete and specially designated within the file structure of the feature.
+ - **Resolution**: Decisions with background justification. Accepted and Verified facts. Linking back to Discussions is appropriate. 
+ - **Solution**: within a feature, the articulated blueprint or approach to implementing a feature specification. Competing or component solutions will exist in a Feature in Discussion or Resolution areas. When a feature enters development, the Solution is understood to be validated and complete and specially designated within the file structure of the feature.
  - **The Solution**: the system in fact or abstractly, the collection of features.
  - **System**: the whole of the solution in production and described in the Manifest.
  - **Guides**: step-by-step how-to instructions for any type of user.

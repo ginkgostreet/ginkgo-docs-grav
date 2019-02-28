@@ -4,14 +4,14 @@ taxonomy:
     category:
         - docs
     tag:
-        - maintenance
+        - manifest
 routes:
-  canonical: /maintenance/system-setup
+  canonical: /manifest/resources/system-setup
 ---
 
 ## VPS
 
-Created with the ginkgo street VPS stand-up suite for an LTS Ubuntu Server with a LAMP stack installed.w
+Created with the ginkgo street VPS stand-up suite for an LTS Ubuntu Server with a LAMP stack installed.
 
 ## Special Utils
 
