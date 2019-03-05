@@ -15,23 +15,13 @@ Structure commits meaningfully.
 
 Use branches and Pull-Requests.
 
-## Create a Grav Base-install
+## Create a Project Lab Development Environment
 
 ```shell
-compser create-project --no-dev getgrav/grav project-dir/
-cd project-dir
-bin/gpm self-upgrade -y
-git submodule update --init --recursive
-```
-* upgrade after installing via composer because sometimes composer package is not up to date with the Stable release.
-* Do the add submodule dance in case any submodules have been added (like the ginkgo-rtfm theme)
-
-## Clone the Intance Repo
-Remove the default `user/` directory and replace it with the git-sync'd repo:
-```shell
-cd project-dir/
-rm -rf user/
-git clone git@github.com:ginkgostreet/fis-docs.git user
+export PUBLIC_HTML=project-dir 
+grav-util dev-env
+export PROJ_LAB_REPO=git@github.com:/ginkgostreet/<project-repo>
+grav-util project-lab-repo
 ```
 
 Confirm that the `user/localhost` directory exists. If not, follow the [instructions for adding the dev-env config](/project%20setup) to the content repo.
