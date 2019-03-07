@@ -6,7 +6,7 @@ taxonomy:
   tag:
     - context
 routes:
-  canonical: /features/information-architecture/context
+  canonical: /features/feature/context
 ---
 # Context Documents
 

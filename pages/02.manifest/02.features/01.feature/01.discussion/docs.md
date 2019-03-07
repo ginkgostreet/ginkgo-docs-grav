@@ -6,13 +6,13 @@ taxonomy:
   tag:
     - discussion
 routes:
-  canonical: /feature/information-architecture/discussion
+  canonical: /features/feature/discussion
 ---
 # Discussion: Decision Framework
 
 Discussions are unresolved topics having to do with any aspect of the feature it belongs to. Topics should be non-trivial and possibly non-obvious, though this can be highly subjective and it is better to create a discussion than to assume it isn't needed.
 
-Discussions and Resolutions are the key elements of the Project Lab Decision Framework. When a Discussion is concluded, a status of "RESOLVED" should be placed at the top of the discussion, and linked to the Resolution.
+Discussions and [Resolutions](/features/feature/resolution) are the key elements of the Project Lab Decision Framework. When a Discussion is concluded, a status of "RESOLVED" should be placed at the top of the discussion, and linked to the Resolution.
 
 ## Examples
 

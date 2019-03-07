@@ -1,12 +1,12 @@
 ---
-title: Features
+title: Discussion
 taxonomy:
   category: 
     - docs
   tag:
-    - content
+    - discussion
 routes:
-  canonical: /manifest/features
+  canonical: /features/information-architecture/discussion
 content:
     items: '@self.children'
     limit: 0
@@ -16,9 +16,10 @@ process:
 page-toc:
     active: false
 ---
-# Deployed Features
+# Discussion
 
 {% for p in page.collection %}
 ### [{{ p.title }}]({{ p.url }})
 {{ p.summary|striptags|safe_truncate(300) }}
 {% endfor %}
+
