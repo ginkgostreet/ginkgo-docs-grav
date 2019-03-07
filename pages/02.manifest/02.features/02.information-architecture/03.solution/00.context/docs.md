@@ -8,9 +8,12 @@ taxonomy:
 routes:
   canonical: /features/information-architecture/context
 ---
-# Context for Lab Information Architecture
+# Context Documents
+
+This Context Document is a self-referential example. It describes the intent and purpose of the Lab Information Architecture "Feature".
 
 ## Personas
+
  - **End User**: user looking for guidance on using the solution
  - **Stakeholder**: and invested user of the solution that articulates organization processes
  - **Project Owner**: arbiter between a development team and stakeholders
