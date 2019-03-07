@@ -12,7 +12,9 @@ routes:
 
 So, you'd like to learn to work in a Project Lab? Adjust your safety goggles, and let's begin.
 
-The purpose of a Lab is described in [Welcome](welcome).
+> A Project Lab is a project nexus for all Stakeholders and Implementors to have a
+> meeting of the minds, quickly find resources and knowledge, and quickly
+> gain perspective on where we've been, and where we are going.
 
 ## Top-level Navigation
 
@@ -23,6 +25,14 @@ To get started, you need to understand:
 * [Roadmap](/manifest/features/information-architecture/discussion/initial-brainstorm#roadmap)
 
 The first two items represent mostly describe the state of the Solution the Lab was created to implement and maintain. Guides can be in a draft state however and either represent how the Solution functions, or how it eventually will function.
+
+## Guides
+
+"Reference" documentation is relegated to a sub-folder under Guides. It is necessary documentation but considered less useful because it must address a large audience with different skills, experience, and purposes. Reference documentation should be further limited because specific interfaces should be documented within the Solution of the Feature that implements it, or a meta-feature that brings together the several features that implement a single form or interface.
+
+Most Guides are intended to be "Objective Centric". This means that a single audience is targetted, and usually an advanced user. Skill-building and familiarity are their own objectives, so most guides do not need to cater to beginners.
+
+The gray area between Guides and References are conceptual guides. Use your judgment in organizing conceptual documentation as a Reference, or a Guide.
 
 ## Manifest
 
