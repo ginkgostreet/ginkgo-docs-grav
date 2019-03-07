@@ -5,6 +5,8 @@ taxonomy:
         - docs
     tag:
         - user-docs
+routes:
+    canonical: /guides
 ---
 
 # Ginkgo Street "Labs"

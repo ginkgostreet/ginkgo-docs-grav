@@ -1,5 +1,5 @@
 ---
-title: New File
+title: Canonical URLs
 taxonomy:
   category: 
     - docs

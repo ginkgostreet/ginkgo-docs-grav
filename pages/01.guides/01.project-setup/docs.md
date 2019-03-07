@@ -5,7 +5,8 @@ taxonomy:
         - docs
     tag:
         - user-docs
-visible: true
+routes:
+    canonical: /guides/project-setup
 ---
 
 ## docs-user

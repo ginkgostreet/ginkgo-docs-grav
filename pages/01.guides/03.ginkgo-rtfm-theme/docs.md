@@ -7,7 +7,7 @@ taxonomy:
         - user-docs
 visible: true
 routes:
-    cannonical: /ginkgo-rtfm-theme
+    cannonical: /guides/ginkgo-rtfm-theme
 ---
 
 # TODO: migrate this to a feature

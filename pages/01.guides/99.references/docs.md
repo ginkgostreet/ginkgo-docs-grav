@@ -6,7 +6,7 @@ taxonomy:
   tag:
     - reference
 routes:
-  canonical: /guide/references
+  canonical: /guides/references
 ---
 # References
 
