@@ -38,7 +38,7 @@ See project README.md for instructions.
 
 ## Configure Site
 
-* Review site configuration - See [Roadmap: #More Default Configs](/backlog) for suggestions:
+* Review site configuration - See [Roadmap: #More Default Configs](/roadmap/ginkgo-grav-install-profile) for suggestions:
 * Configure Site Options
   * Site Title: e.g. "Museum of Math Knowledgebase"
   * Default Author: Ginkgo
