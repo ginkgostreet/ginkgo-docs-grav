@@ -9,22 +9,34 @@ routes:
     canonical: /guides/off-line-content-creation
 ---
 
-Use git to edit content in a development environment.
+## Summary
 
-Structure commits meaningfully.
+If you want to participate in a Project Lab, you should create a local grav instance. After the base install, delete `/user` directory and replace it by cloning the Project Lab repo.
 
-Use branches and Pull-Requests.
-
-## Create a Project Lab Development Environment
-
-```shell
-export PUBLIC_HTML=project-dir 
-grav-util dev-env
-export PROJ_LAB_REPO=git@github.com:/ginkgostreet/<project-repo>
-grav-util project-lab-repo
+```
+git@github.com:ginkgostreet/project-docs.git user
 ```
 
-Confirm that the `user/localhost` directory exists. If not, follow the [instructions for adding the dev-env config](/project%20setup) to the content repo.
+Remember to use good git workflows:
+ -  Use git to edit content in a development environment.
+ - Structure commits meaningfully.
+ - Use branches and Pull-Requests.
+
+## Environment Config
+Grav supports environment configs that are named for the host. So, the default configs are located in `/user/config` but you could configure production as `/user/docs.ginkgo.st/config` and a dev environment as `/user/localhost/config`.
+
+## Initialize the dev environment
+Confirm that the `user/localhost` directory exists. 
+
+If not, you can start a new config by creating the file `/user/localhost/config/system.yaml`.
+with the contents:
+``` yaml
+debugger:
+  enabled: true
+  shutdown:
+    close_connection: true
+  twig: true
+```
 
 Optional: pull-down the user/accounts directory, or else you will have to create a login for yourself.
 `rsync -rv rtfm:/home/fis/public_html/user/accounts user/`
