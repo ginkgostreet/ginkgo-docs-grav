@@ -20,6 +20,7 @@ embed repo README docs.
  - https://github.com/getgrav/grav-plugin-youtube
  - https://github.com/andrewscofield/grav-plugin-codepen-embed
  - https://github.com/mikahanninen/grav-plugin-facebook
+ - https://github.com/Nebulius/grav-plugin-static-social-embeds
  
 
 Embed Local Content:
