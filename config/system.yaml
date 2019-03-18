@@ -15,7 +15,7 @@ languages:
   http_accept_language: false
   override_locale: false
 home:
-  alias: /guide
+  alias: /guides/orientation
   hide_in_urls: false
 pages:
   theme: ginkgo-rtfm
