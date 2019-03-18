@@ -24,3 +24,4 @@ Disadvantage is perhaps duplicating the documentation that might be in the repo 
  - <https://en.wikipedia.org/wiki/Doxygen>
  - <https://en.wikipedia.org/wiki/PhpDocumentor>
  - <https://github.com/clean/phpdoc-md> Oh, hey! php docs in markdown.
+ - <https://github.com/codex-project/codex> defunct so use for salvage: uses markdown, fetches git repos.
