@@ -17,13 +17,14 @@ How we want our Grav sites set up, and what each section is used for.
 Our top-level menu structure is broken out into three main sections, with sub-sections:
 
 - Guide 
-    - Objective
+    - Step-by-step
     - Reference
 - Manifest
-    - Feature (Deployed)
+    - System Log (e.g. System admin changes, upgrades, deployments, config changes, etc.)
     - Resources (e.g. Servers, Accounts, and third-party dependancies such as Drupal or CiviCRM
-    - Project Log (e.g. Budget approvals, resource procurement, control documentation, etc.)
-    - Change Log (e.g. System admin changes, upgrades, deployments, config changes, etc.)
+    - Features (Deployed Features)
+    - Control (e.g. Budget approvals, resource procurement, control documentation, etc.)
+    
 - Roadmap
     - Feature
         - Context
