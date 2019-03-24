@@ -13,16 +13,11 @@ routes:
 
 Settings to add to our Ginkgo install profile.
 
-#### Content
+#### Configuration > System > Content
 
-* Set Default Theme
-* Default Ordering: "Folder  - based on prefix-less folder name"
+* Set Default Theme: Ginkgo RTFM
 
-#### Markdown
+#### Configuration > System > Markdown
 
 * Enable Markdown Extra
 * Auto URL Links
-
-#### Advanced
-
-* Force lowercase URLs: No
