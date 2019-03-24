@@ -2,10 +2,10 @@
 title: Initialize Lab Sections
 taxonomy:
   category:
-    - docs
+    - guides
   tag:
     - content
-    - guides
+    - guide
 routes:
   canonical: /guides/project-setup/initialize-lab-sections
 ---
