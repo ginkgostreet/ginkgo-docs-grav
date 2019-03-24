@@ -2,7 +2,7 @@
 title: Project Lab Set-Up
 taxonomy:
   category: 
-    - guides
+    - docs
   tag:
     - content
     - guide
@@ -24,13 +24,18 @@ page-toc:
 
 This guide will walk you through the process of creating a new Project Lab instance on docs.Ginkgo.st. A new project lab consists of a branch of the Grav flat-file CMS and a repo on GitHub.
 
-## Prerequisites
+## Pre-flight Check
 
 You will need:
 
 - A user with shell access on Ginkgo Street Labs (docs.ginkgo.st)
+- GitHub [key-based authentication][1] on the docs server. It is recommended that you use [SSH Forward-Agent][2] to achieve this.
 - Admin (sudo) privileges
 - A GitHub account with rights to create repositories in the GinkgoStreet (https://github.com/ginkgostreet) Organization and manage the team that is to work in the Lab.
+
+[1]: https://help.github.com/en/articles/connecting-to-github-with-ssh "Connecting to Github With SSH"
+[2]: https://dev.to/levivm/how-to-use-ssh-and-ssh-agent-forwarding-more-secure-ssh-2c32 "Setup SSH Keys and Agent Forwarding"
+
 
 ## Overview
 

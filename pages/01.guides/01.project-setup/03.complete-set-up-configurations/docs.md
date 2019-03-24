@@ -1,5 +1,5 @@
 ---
-title: Complete Set-up Lab Configurations
+title: Complete Set-up Configurations
 taxonomy:
   category:
     - docs
@@ -7,20 +7,12 @@ taxonomy:
     - content
     - guide
 routes:
-  canonical: /guides/project-setup/complete-set-up-lab-configurations
+  canonical: /guides/project-setup/complete-set-up-configurations
 ---
-# Complete Set-up Lab Configurations
+# Complete Set-up Configurations
 
-* Review site configuration - See [Roadmap: #More Default Configs](/roadmap/ginkgo-grav-install-profile) for suggestions:
+* Follow the steps in [Roadmap: #More Default Configs](/roadmap/ginkgo-grav-install-profile).
 * Configure Site Options
   * Site Title: e.g. "Museum of Math Knowledgebase"
   * Default Author: Ginkgo
   * Default Email: devs@ginkgostreet.com
-* Initialize dev-environment config (on the server)
-```shell
-export PUBLIC_HTML=project-dir 
-grav-util dev-env
-export PROJ_LAB_REPO=git@github.com:/ginkgostreet/<project-repo>
-grav-util project-lab-repo
-```
-You will have to override the `.gitignore` to commit the directory. After committing locally, use the git-sync in the Admin interface to push the changes.
