@@ -16,3 +16,4 @@ routes:
   * Site Title: e.g. "Museum of Math Knowledgebase"
   * Default Author: Ginkgo
   * Default Email: devs@ginkgostreet.com
+* You can set a site logo URL in the Ginkgo RTFM Theme settings.
