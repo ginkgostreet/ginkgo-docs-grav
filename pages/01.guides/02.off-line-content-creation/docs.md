@@ -4,7 +4,8 @@ taxonomy:
     category:
         - docs
     tag:
-        - guides
+        - content
+        - guide
 routes:
     canonical: /guides/off-line-content-creation
 ---
