@@ -2,7 +2,7 @@
 title: Initialize Lab Sections
 taxonomy:
   category:
-    - guides
+    - docs
   tag:
     - content
     - guide
