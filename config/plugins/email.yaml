@@ -1,0 +1,21 @@
+enabled: true
+from: noreply@ginkgostreet.com
+from_name: 'Ginkgo Street Labs'
+to: clients@ginkgostreet.com
+to_name: 'Ginkgo Street Labs'
+cc:
+cc_name:
+bcc:
+bcc_name:
+mailer:
+  engine: sendmail
+  smtp:
+    server: localhost
+    port: 25
+    encryption: none
+    user: ''
+    password: ''
+  sendmail:
+    bin: '/usr/sbin/sendmail -bs'
+content_type: text/html
+debug: false
