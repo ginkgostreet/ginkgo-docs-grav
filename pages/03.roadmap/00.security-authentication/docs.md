@@ -11,7 +11,7 @@ routes:
 # Security and Authentication
 
 * Deny un-authenticated access
-* Creating User Accounts
+* [Creating and Managing User Accounts](/features/grav-security-authentication/creating-and-managing-user-accounts)
 
 Read the docs for the [login plugin](https://github.com/getgrav/grav-plugin-login)
 
