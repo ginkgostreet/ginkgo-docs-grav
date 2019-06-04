@@ -1,0 +1,25 @@
+administrators:
+  readableName: Administrators
+  description: Administrators
+  icon: child
+  access:
+    site:
+      login: 'true'
+    admin:
+      super: 'true'
+      login: 'true'
+    admin-addon-user-manager:
+      users: 'true'
+      groups: 'true'
+      users_expert: 'true'
+staff:
+  readableName: Staff
+  description: Staff
+  icon: users
+  access:
+    site:
+      login: 'true'
+    admin:
+      login: 'true'
+      pages: 'true'
+      cache: 'true'
